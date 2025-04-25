@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #3e5d75;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #213448;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    padding: 5px;
+    margin: 5px;
+}
+
+nav a button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 15px;
+    margin: 8px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #213448;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+nav a button:hover{
+    background-color: #3e5d75;
+
+}
+
+main{
+    margin: 40px;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .task-box{
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    background-color: #213448;
+    text-align: center;
+    border-radius: 15px;
+}
+
+main .task-box h2{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* main .task-box p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+} */
+
+main .task-box button{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: #3e5d75;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+main .task-box button:hover{
+    background-color: #0c1722;
+    transform: scale(1.07);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
